@@ -84,135 +84,17 @@
         <div>
           <h2 class="m-0">Carrito</h2>
         </div>
-        <div>Total: $<span>4000</span></div>
-        <div>
-            <a class="btn btn-danger mt-2" href="#">Eliminar</a>
-          </div>
+        <div>Total: $<span id="totalHTML">0</span></div>
+        <!-- <div>
+            <a class="btn btn-outline-light mt-2 fs-5" href="#">Comprar</a>
+          </div> -->
       </div>
     </nav>
     <!-- productos del carrito -->
-    <div class="espacioHeaderCarrito">
-      <div class="card2 contenedor cardCarrito mb-4 shadow rounded">
-        <div class="imgBox">
-          <img
-            src="https://distribuidora-victoria.com.ar/wp-content/uploads/2016/06/1598285737ff9829abf2209592ff9e97eba1e0d481-300x300.jpg"
-            style="height: 150px; width: 150px"
-            alt=""
-          />
-        </div>
-        <div class="detalle detalleCarrito flex">
-          <div>
-            <div class="title">
-              <h3>Lorem ipsum dolor sit amet.</h3>
-            </div>
+    <div class="espacioHeaderCarrito eliminar-carrito" id="tablaCarrito"></div>
 
-            
-              <div class="price">
-                <span>$159.45</span>
-              </div>
-            
-          </div>
-
-          <form id="agregar-gasto" action="#">
-            <div class="form-group">
-              <label for="gasto">Cantidad:</label>
-              <input
-                type="number"
-                class="form-control"
-                id="gasto"
-                placeholder="Unidades"
-                style="width: 150px"
-              />
-            </div>
-          </form>
-          <div>
-            <a class="btn btn-danger mt-2" href="#">Eliminar</a>
-          </div>
-        </div>
-      </div>
-      <!-- producto2 -->
-      <div class="card2 contenedor cardCarrito mb-4 shadow rounded">
-        <div class="imgBox">
-          <img
-            src="https://distribuidora-victoria.com.ar/wp-content/uploads/2016/06/1598285737ff9829abf2209592ff9e97eba1e0d481-300x300.jpg"
-            style="height: 150px; width: 150px"
-            alt=""
-          />
-        </div>
-        <div class="detalle flex">
-          <div>
-            <div class="title">
-              <h3>Lorem ipsum dolor sit amet.</h3>
-            </div>
-
-            <div class="buy">
-              <div class="price">
-                <span>$159.45</span>
-              </div>
-            </div>
-          </div>
-
-          <form id="agregar-gasto" action="#">
-            <div class="form-group">
-              <label for="gasto">Cantidad:</label>
-              <input
-                type="number"
-                class="form-control"
-                id="gasto"
-                placeholder="Unidades"
-                style="width: 150px"
-              />
-            </div>
-          </form>
-          <div>
-            <a class="btn btn-danger mt-2" href="#">Eliminar</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- producto3 -->
-
-      <div class="card2 contenedor cardCarrito mb-4 shadow rounded">
-        <div class="imgBox">
-          <img
-            src="https://distribuidora-victoria.com.ar/wp-content/uploads/2016/06/1598285737ff9829abf2209592ff9e97eba1e0d481-300x300.jpg"
-            style="height: 150px; width: 150px"
-            alt=""
-          />
-        </div>
-        <div class="detalle flex">
-          <div>
-            <div class="title">
-              <h3>Lorem ipsum dolor sit amet.</h3>
-            </div>
-
-            <div class="buy">
-              <div class="price">
-                <span>$159.45</span>
-              </div>
-            </div>
-          </div>
-
-          <form id="agregar-gasto" action="#">
-            <div class="form-group">
-              <label for="gasto">Cantidad:</label>
-              <input
-                type="number"
-                class="form-control"
-                id="gasto"
-                placeholder="Unidades"
-                style="width: 150px"
-              />
-            </div>
-          </form>
-          <div>
-            <a class="btn btn-danger mt-2" href="#">Eliminar</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <script src="app.js"></script> -->
+    <script src="./js/carrito.js"></script>
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

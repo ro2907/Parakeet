@@ -38,7 +38,7 @@
     align-items: center;
     max-width: 500px;
     width: 90%;
-    height: 150px;
+    height: auto;
     background-color: #FFF;
     
     margin: 0 auto;
@@ -113,12 +113,13 @@
 .card2 .detalle .btn2{
     background: #D9E7FA;
     padding: 0.4em 0.3em;
-    
-}
-.card2 .detalle .btn2 a{
-    text-decoration: none;
     color: #3483FA;
     font-size: 14px ;
+    
+}
+.card2 .detalle .btn2-danger {
+    color: #ffffff;
+    background-color: #fd8585;
 }
 .centro{
     display: flex;
@@ -166,7 +167,7 @@ footer p {
     
     
 }
-@media(min-width:700px){
+@media(min-width:720px){
     /* Cambia la dirección de la card */
     .cardExpan .imgBox img {
         width: 300px;
@@ -200,18 +201,5 @@ footer p {
         flex-direction: column;
         align-items: center;
     }
-    .card2 .detalle{
-        flex-direction: row;
-    }
-    /* .card2 .imgBox img {
-        width: 300px;
-        height: 300px;
-    }
-    .card2 {
-        flex-direction: column;
-        width: 300px;
-        height: auto;
-    }
-     */
-     
+  
 }
